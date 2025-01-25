@@ -1,0 +1,51 @@
+INSERT INTO students (first_name, last_name, date_of_birth, gender, email, phone, address)
+VALUES 
+('Rajesh', 'Reddy', '2000-05-10', 'Male', 'rajesh.reddy@email.com', 'xxxxxxx', '1234 South St.'),
+('Anjali', 'Nair', '1999-08-22', 'Female', 'anjali.nair@email.com', 'xxxxxxx', '5678 North St.'),
+('Karthik', 'Vasudevan', '2001-02-18', 'Male', 'karthik.vasudevan@email.com', 'xxxxxxx', '2345 East St.'),
+('Lakshmi', 'Iyer', '2000-11-05', 'Female', 'lakshmi.iyer@email.com', 'xxxxxxx', '8765 West St.'),
+('Arun', 'Babu', '2001-06-14', 'Male', 'arun.babu@email.com', 'xxxxxxx', '1234 Green St.'),
+('Nandini', 'Raman', '2000-03-23', 'Female', 'nandini.raman@email.com', 'xxxxxxx', '5647 Blue St.'),
+('Vikram', 'Sharma', '1999-10-30', 'Male', 'vikram.sharma@email.com', 'xxxxxxx', '7654 Yellow St.'),
+('Priya', 'Subramanian', '2001-09-12', 'Female', 'priya.subramanian@email.com', 'xxxxxxx', '4321 Red St.'),
+('Ravi', 'Kumar', '2000-12-02', 'Male', 'ravi.kumar@email.com', 'xxxxxxx', '2346 White St.'),
+('Geetha', 'Menon', '2001-04-15', 'Female', 'geetha.menon@email.com', 'xxxxxxx', '6789 Black St.'),
+('Suresh', 'Pillai', '1999-07-28', 'Male', 'suresh.pillai@email.com', 'xxxxxxx', '3457 Pink St.'),
+('Vani', 'Rajan', '2000-01-13', 'Female', 'vani.rajan@email.com', 'xxxxxxx', '6543 Orange St.'),
+('Sridhar', 'Anand', '2001-03-20', 'Male', 'sridhar.anand@email.com', 'xxxxxxx', '9087 Silver St.'),
+('Meera', 'Krishnan', '1999-05-11', 'Female', 'meera.krishnan@email.com', 'xxxxxxx', '3245 Gold St.'),
+('Bala', 'Murugan', '2000-08-09', 'Male', 'bala.murugan@email.com', 'xxxxxxx', '7654 Copper St.');
+
+INSERT INTO courses (course_name, course_code, instructor, credits)
+VALUES
+('Database Management', 'CS101', 'Dr. Kumar', 3),
+('Web Development', 'CS102', 'Prof. Suresh', 4),
+('Operating Systems', 'CS103', 'Dr. Rajan', 3),
+('Software Engineering', 'CS104', 'Prof. Priya', 3),
+('Data Structures', 'CS105', 'Dr. Lakshmi', 4);
+
+INSERT INTO enrollments (student_id, course_id, enrollment_date)
+VALUES
+(1, 1, '2025-01-10'),
+(1, 2, '2025-01-15'),
+(2, 1, '2025-01-12'),
+(3, 1, '2025-01-14'),
+(4, 2, '2025-01-16'),
+(5, 3, '2025-01-11'),
+(6, 4, '2025-01-18'),
+(7, 1, '2025-01-19'),
+(8, 5, '2025-01-13'),
+(9, 2, '2025-01-20');
+
+INSERT INTO grades (student_id, course_id, grade)
+VALUES
+(1, 1, 'A'),
+(1, 2, 'B'),
+(2, 1, 'A'),
+(3, 1, 'C'),
+(4, 2, 'B'),
+(5, 3, 'A'),
+(6, 4, 'A'),
+(7, 1, 'B'),
+(8, 5, 'A'),
+(9, 2, 'C');
